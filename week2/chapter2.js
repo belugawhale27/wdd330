@@ -86,7 +86,3 @@ name = { value: 'Siri' }; //will not work
 
 /*The reason this is useful is because it allows stability in the program
 by creating predictability */
-
-
-
-

@@ -83,4 +83,7 @@ function gameOver(){
 }
 //This line of code actually starts the quiz game
 start(quiz);
-                
+/*Things I would like to do to change/improve this game include:
+Making buttons instead of just prompts/alerts for the questions and answers
+Changing the colors to reflect the Justice League since that's where these heroes are from
+*/
