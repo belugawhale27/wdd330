@@ -48,7 +48,7 @@ Making buttons instead of just prompts/alerts for the questions and answers
 Changing the colors to reflect the Justice League since that's where these heroes are from
 */
 
-/*Chapter 5 Game Updates: */
+/*Chapter 5 Game Updates: 
 
 //The questions and answers are being stored as objects inside an array
 const quiz = [
@@ -95,4 +95,87 @@ const game = {
 }
 
 //function to start the quiz
-game.start(quiz);
+game.start(quiz); */
+
+
+/*Chapter 6 and 7 Game Updates */
+
+//The questions and answers are being stored as objects inside an array
+const quiz = [
+    { name: "Superman",realName: "Clark Kent"},
+    { name: "Wonder Woman", realName: "Diana Prince"},
+    { name:"Batman", realName: "Bruce Wayne"},
+    { name: "Green Lantern", realName: "John Stewart"},
+    { name: "Flash", realName: "Barry Allen"},
+];
+
+// View Object
+const view = {
+    start: document.getElementById('start'),
+    score: document.querySelector('#score strong'),
+    question: document.getElementById('question'),
+    result: document.getElementById('result'),
+    info: document.getElementById('info'),
+    show(element){
+        element.style.display = 'block';
+    }, 
+    hide(element){
+        element.style.display = 'none';
+    },
+    render(target,content,attributes) {
+        for(const key in attributes) {
+            target.setAttribute(key, attributes[key]);
+        }
+        target.innerHTML = content;
+    }
+    
+};
+//Object called game that will be the namespace
+const game = {
+    start(quiz){
+        //because it's inside the object it uses this.questions here
+        //added in the following line to had the button while the game is played
+        view.hide(view.start);
+        this.questions = [...quiz];
+        this.score = 0;
+        // main game loop
+        for(const question of this.questions){
+        this.question = question;
+        this.ask();
+        }
+        // end of main game loop
+        this.gameOver();
+    },
+    //Updated ask()
+    ask(){
+        const question = `What is ${this.question.name}'s real name?`;
+        view.render(view.question,question);
+        const response =  prompt(question);
+        this.check(response);
+    },
+    //Updated check()
+    check(response){
+        const answer = this.question.realName;
+        if(response === answer){
+        view.render(view.result,'Correct!',{'class':'correct'});
+        alert('Correct!');
+        this.score++;
+        view.render(view.score,this.score);
+        } else {
+        view.render(view.result,`Wrong! The correct answer was ${answer}`,{'class':'wrong'});
+        alert(`Wrong! The correct answer was ${answer}`);
+        }
+    },
+    //Updated check()
+    gameOver(){
+        view.render(view.info,`Game Over, you scored ${this.score} point${this.score !== 1 ? 's' : ''}`);
+        //The button will reappear when it's over
+        view.show(view.start);
+    }
+}
+
+//function to start the quiz
+//game.start(quiz);
+//still runs similarly to how it did after Chapter 6, but it updates at the end
+view.start.addEventListener('click', () => game.start(quiz), false);
+//Something isn't working right, I can't seem to figure it out . . .
