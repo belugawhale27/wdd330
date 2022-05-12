@@ -1,5 +1,5 @@
 /*This stylesheet is from the github from the book*/
-body{
+/*body{
     background: #5F1C1C;
     font-family: 'Spectral', serif;
   }
@@ -36,6 +36,9 @@ body{
     width: 100%;
     margin: 6px 0;
   }
+  */
+
+  @import url('https://fonts.googleapis.com/css?family=Baloo+Da|Roboto');
 
 body{
   background: #5F1C1C;
@@ -91,4 +94,3 @@ button {
   color: #fff;
   background-color: #c00;
 }
-
