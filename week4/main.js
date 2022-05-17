@@ -318,4 +318,5 @@ grouped together to be used. All functions don't need to be exported, but can be
 Most browsers now support ES6 which is able to used modules. 
 
 Modules seem to be the way to organize code and it seems likely
-that they will be used by all languages in the future for those that aren't currently. */
+that they will be used by all languages in the future for those that aren't currently. 
+I'm not sure why things didn't get pushed to GitHub, but they should be there now.*/
