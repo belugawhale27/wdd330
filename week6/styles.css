@@ -1,0 +1,158 @@
+body{
+    background: url(images/background.jpg);
+    background-size: 100%;
+    font-family: 'Neuton', serif;
+    background-color: transparent;
+}
+
+.container {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+.heading {
+    display: flex;
+    margin: auto;
+    margin-top: 150px;
+    margin-left: 450px;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 1.5rem 0;
+    align-items: center;
+}
+.main {
+    padding: 20px;
+}
+form {
+    margin-left: 250px;
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+}
+input[type="text"] {
+    margin-left: 50px;
+    min-width: 350px;
+    height: 30px;
+    outline: 0;
+    border: none;
+    font-size: 1rem;
+    background-color: transparent;
+    flex-grow: 0;
+}
+button {
+    font-size: 1.5rem;
+    background-color:transparent;
+    outline: 0;
+    border: none;
+    color: black;
+}
+button:hover {
+    color: lightcoral;
+}
+.fa-square {
+    font-size: 1.5rem;
+    background-color:#B2B3B6ff;
+    outline: 0;
+    border: 1px solid black;
+    color: white;
+}
+.fa-square:hover {
+    color: lightcoral;
+}
+.fa-trash {
+    font-size: 1.5rem;
+    background-color:#B2B3B6ff;
+    outline: 0;
+    border: none;
+    color: black;
+}
+.fa-trash:hover {
+    color: lightcoral;
+}
+.todoList {
+    background-color: transparent;
+    min-width: 400px;
+    border-radius: 5px;
+    margin-left: 250px;
+    padding: 10px 25px;
+    height: 100%;
+}
+ul {
+    padding-left: 0px;
+    list-style: none;
+}
+li {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    padding: 15px 0;
+    font-size: 1 rem;
+    color: black;
+}
+i {
+    pointer-events: none;
+}
+.todo-item {
+    flex-grow: 1;
+}
+.organize {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.tasksLeft {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 3px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+.tasksLeft:hover {
+    color: purple;
+}
+.clearAll {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 3px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+.clearAll:hover {
+    color: lightcoral;
+}
+
+.all {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 3px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+.all:hover {
+    color: gold;
+}
+.active {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 3px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+.active:hover {
+    color: green;
+}
+.completed {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 3px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+.completed:hover {
+    color: red;
+}
