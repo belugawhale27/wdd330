@@ -1,3 +1,5 @@
+//UPDATE ninjaquiz.html so that it uses this file main11.js instead of main.js
+
 //Chapter 11: Further Functions
 
 //adding in the random function to use to make the game more fun!
