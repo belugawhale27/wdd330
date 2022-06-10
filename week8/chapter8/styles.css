@@ -35,24 +35,29 @@ aside > article:nth-of-type(1) p,
 }
 .one {
   color: white;
-  background-color: black;
-  width: 20%;
-  height: 18px;
-  transform: translateX(150px) translateY(150px) skew(10deg,20deg);
+  background-image: linear-gradient(red, violet);
+  height: 25px;
+  margin: 5px;
+  transform: translateX(150px) translateY(300px) skew(10deg,20deg);
 }
 .two {
-  color: yellowgreen;
-  background-color: darkred;
-  width: 10%;
-  height: 18px;
+  color: whitesmoke;
+  background-image: linear-gradient(darkgrey, black, grey);
+  width: 75%;
+  height: 21px;
   transform: skew(15deg, 135deg);
 }
 .three {
   color: whitesmoke;
-  background-color:rgb(28, 31, 26);
-  width: 15%;
+  background-image:linear-gradient(grey,rgb(28, 31, 26));
   height: 18px;
-  transform: rotate(35deg) translateX(150px) translateY(250px);
+  transform: rotate(35deg) translateX(200px) translateY(300px);
+}
+.four {
+  color: whitesmoke;
+  background-image:linear-gradient(darkblue, darkgreen, darkslateblue, darkolivegreen);
+  height: 18px;
+  transform: translateX(200px) translateY(300px) rotate(35deg);
 }
 .moveRight:hover {
   animation-name: moveRight;
@@ -92,4 +97,7 @@ aside > article:nth-of-type(1) p,
 }
 .hover {
   color: darkviolet;
+}
+main {
+  align-items: center;
 }
