@@ -1,0 +1,103 @@
+.ad-ad2 {
+  background-image: url(images/dukes.png);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  transition: transform 2s linear 250ms;
+  min-height: 140px;
+}
+aside > article:nth-of-type(1) h1,
+.ad-ad2 h1 {
+  font-size: 20px;
+  font-family: AcknowledgementMedium;
+  padding: 0 30px 0 75px;
+  line-height: 1;
+  color: #999;
+  margin: 0 0 2px 15px;
+  text-align: left;
+}
+aside > article:nth-of-type(1) h1 span,
+.ad-ad2 h1 span {
+  font-size: 30px;
+  color: #999999;
+  display: inline-block;
+  transition: color 0.2s ease-out, transform 0.2s ease-out;
+}
+aside > article:nth-of-type(1) h1:hover span,
+.ad-ad2 h1:hover span {
+  color: rgb(28, 31, 26);
+  text-transform: uppercase;
+  transform: rotate(10deg) translateX(40px) scale(1.5);
+}
+aside > article:nth-of-type(1) p,
+.ad-ad2 p {
+  padding: 5px 3px 0 100px;
+  font-size: 0.85em;
+}
+.one {
+  color: white;
+  background-image: linear-gradient(red, violet);
+  height: 25px;
+  margin: 5px;
+  transform: translateX(150px) translateY(300px) skew(10deg,20deg);
+}
+.two {
+  color: whitesmoke;
+  background-image: linear-gradient(darkgrey, black, grey);
+  width: 75%;
+  height: 21px;
+  transform: skew(15deg, 135deg);
+}
+.three {
+  color: whitesmoke;
+  background-image:linear-gradient(grey,rgb(28, 31, 26));
+  height: 18px;
+  transform: rotate(35deg) translateX(200px) translateY(300px);
+}
+.four {
+  color: whitesmoke;
+  background-image:linear-gradient(darkblue, darkgreen, darkslateblue, darkolivegreen);
+  height: 18px;
+  transform: translateX(200px) translateY(300px) rotate(35deg);
+}
+.moveRight:hover {
+  animation-name: moveRight;
+  animation-duration: 0.7s;
+}
+@keyframes moveRight { 
+    from {
+    transform: translateX(-50%);
+    }
+    to {
+    transform: translateX(50%);
+    }
+  }
+
+.appearDisappear:hover {
+  animation-name: appearDisappear;
+  animation-duration: 3s;
+}
+
+@keyframes appearDisappear { 
+  0%, 100% {
+  opacity: 0;
+  }
+  20%, 80% {
+  opacity: 1;
+  }
+}
+
+.bgMove {
+  animation-name: bgMove;
+  animation-duration: 0.9s;
+}
+@keyframes bgMove {
+  100% {
+  background-position: 120% 0;
+  }
+}
+.hover {
+  color: darkviolet;
+}
+main {
+  align-items: center;
+}
