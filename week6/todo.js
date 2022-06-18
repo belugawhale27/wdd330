@@ -25,10 +25,13 @@ function handleClickDeleteOrCheck(e) {
 
 function handleClearAll(e) {
     document.querySelector('ul').innerHTML = '';
+    //localStorage.clear(); will empty localStorage
 }
 
 function handleAll(e) {
     document.querySelector('ul').innerHTML = ul;
+ // working on adding localStorage here?
+ //   localStorage.setItem = ('name');
 }
 
 function handleActive(e) {
