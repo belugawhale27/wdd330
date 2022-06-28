@@ -1,0 +1,11 @@
+* {
+    font-family: 'Patrick Hand', cursive;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    background-image: url(graduation_simple.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
