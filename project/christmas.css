@@ -1,0 +1,152 @@
+* {
+    font-family: 'Lobster', cursive;
+    box-sizing: border-box;
+    color: rgba(228, 25, 10, 0.952);
+}
+body {
+    background-image: url(/project/images/stars.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center; 
+    color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 0 0 0;
+    overflow: hidden;
+}
+#days, #hours, #minutes, #seconds {
+    font-size: 3rem;
+    -webkit-text-stroke: 1px #113011;
+    --color1: white;
+    --color2: crimson;
+    text-align: center;
+    background: repeating-linear-gradient(
+      120deg,
+      var(--color1),
+      var(--color1) 2px,
+      var(--color2) 8px,
+      var(--color2) 7px
+    );
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    animation: 100s linear 0s infinite move;
+  }
+  
+  @keyframes move {
+    from {
+      background-position: 0px;
+    }
+    to {
+      background-position: 1000px;
+    }
+  }
+  
+h1 #countdown, h1 #quote {
+    font-weight: normal;
+    font-size: 4rem;
+    margin: -150px 0 40px;
+    text-shadow: none;
+}
+h1 #quote {
+    font-weight: normal;
+    font-size: 170px;
+}
+.countdown {
+    display: flex;
+    transform: scale(2);
+}
+.time, .quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+.time h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1;
+    margin: 0 0 5px;
+}
+.quote h2 {
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 1;
+    margin: 0 0 5px;
+}
+#quoteAPI {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 6rem;
+    -webkit-text-stroke: 0.25px #926F34;
+    /*text-shadow: 0 0 5px white;*/
+    --color1: #F9F295;
+    --color2: #E0AA3E;
+    --color3: #E0AA3E;
+    --color4: #B88A44;
+    --color5: #926F34;
+    text-align: center;
+    background: repeating-linear-gradient(
+      120deg,
+      var(--color3),
+      var(--color2) 1px,
+      var(--color2) 2px,
+      var(--color1) 3px,
+      var(--color3) 5px,
+      var(--color3) 10px,
+      var(--color4) 14px,
+      var(--color5) 14px
+    );
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    animation: 240s linear 0s infinite moveBigger;
+  }
+  
+  @keyframes moveBigger {
+    from {
+      background-position: 0px;
+    }
+    to {
+      background-position: 1000px;
+    }
+  }
+@media(max-width:500px){
+    h1{
+        font-size: 45px;
+    }
+    .time {
+        margin: 5px;
+    }
+    .time h2, .quote h2 {
+        font-size: 12px;
+    }
+    .time small, .quote small {
+        font-size: 10px;
+    }
+}
+.card {
+  margin-top: 40px;
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 600px) {
+  *{
+    font-size: 0.75rem;
+  }
+  .time small {
+    font-size: 1rem;
+  }
+  .card {
+    display: none;
+  }
+  body{
+    background-image: url(images/snow.jpg)
+  }
+}

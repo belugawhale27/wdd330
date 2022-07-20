@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background:url(/project/images/newYear.jpg) no-repeat center center fixed;
+    /*background-position: center center;
+    background-repeat:no-repeat;*/
+    background-size: cover;
+}
+.fireworks {
+    background-image: url('https://imgservices-1252317822.image.myqcloud.com/image/081320210201435/e9951400.png');
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    animation: fireworks 1s steps(24) infinite, random 4s steps(1) infinite, random_color 1s infinite;
+
+}
+@keyframes random_color {
+    0% {
+        color: white;
+    }
+    25% {
+        color: gold;
+    }
+    50% {
+        color: silver;
+    }
+    75% {
+        color: whitesmoke;
+    }
+}
+
+
+.one {
+    left: 15%;
+    top: 5%;
+    animation-delay: -0.4s;
+} 
+.two {
+    right: 30%;
+    top: 13%;
+    animation-delay: -1.7s
+}
+.three {
+    left: 5%;
+    top: 23%
+}
+.four {
+    right: 45%;
+    top: 8%;
+    animation-delay: -3.1s;
+} 
+.five {
+    right: 60%;
+    top: 60%;
+}
+@keyframes fireworks {
+    to {
+        background-position: 100%;
+    }
+}
+@keyframes random {
+    25% {
+        transform: translate(200%, 50%) scale(0.8);
+    }
+    50% {
+        transform: translate(80%, 80%) scale(1.2);
+    }
+    75% {
+        transform: translate(20%, 60%) scale(0.65);
+    }
+}
+
+h1 {
+    font-size: 7rem;
+    color: white;
+
+}
