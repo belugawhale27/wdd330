@@ -1,0 +1,920 @@
+{
+  "grad_quotes": [
+    {
+      "quote": "There are still many causes worth sacrificing for, so much history yet to be made.",
+      "author": "Michelle Obama"
+    },
+    {
+      "quote": "I am never wrong when it comes to my own possibilities.",
+      "author": "Placido Domingo"
+    },
+    {
+      "quote": "Your time is limited, so don't waste it living someone else's life.",
+      "author": "Steve Jobs"
+    },
+    {
+      "quote": "When I let go of what I am, I become what I might be.",
+      "author": "Lao Tzu"
+    },
+    {
+      "quote": "Find out what you like doing best and get someone to pay you for it.",
+      "author": "Katharine Whitehorn"
+    },
+    {
+      "quote": "Success is peace of mind, which is a direct result of self-satisfaction in knowing you made the effort to become the best of which you are capable.",
+      "author": "John Wooden"
+    },
+    {
+      "quote": "When we do the best we can, we never know what miracle is wrought in our life, or in the life of another.",
+      "author": "Helen Keller"
+    },
+    {
+      "quote": "We are not what we know but what we are willing to learn",
+      "author": "Mary Catherine Bateson"
+    },
+    {
+      "quote": "Don't judge each day by the harvest you reap, but by the seeds that you plant.",
+      "author": "Robert Louis Stevenson"
+    },
+    {
+      "quote": "The thing that is really hard, and really amazing, is givings up on being perfect and beginning the work of becoming yourself.",
+      "author": "Anna Quindlen"
+    },
+    {
+      "quote": "We cannot do great things on this earth - only small things with great love.",
+      "author": "Mother Teresa"
+    },
+    {
+      "quote": "No matter what age you are, or what your circumstances might be, you are special, and you still have something unique to offer. Your life, because of who you are has meaning.",
+      "author": "Barbara De Angelis"
+    },
+    {
+      "quote": "One lives in the hope of becoming a memory.",
+      "author": "Antonio Porchia"
+    },
+    {
+      "quote": "Just don't give up trying to do what you really want to do. Where there is love and inspiration, I don't think you can go wrong.",
+      "author": "Ella Fitzgerald"
+    },
+    {
+      "quote": "It's your place in the world; it's your life. Go on and do all you can with it, and make it the life you want to live.",
+      "author": "Mae Jemison"
+    },
+    {
+      "quote": "There is a crack in everything. That's how the light gets in.",
+      "author": "Leonard Cohen"
+    },
+    {
+      "quote": "I am in the world to change the world.",
+      "author": "Kathe Kollwitz"
+    },
+    {
+      "quote": "Don't try to figure out what other people want to hear from you; figure out what you have to say. It's the one and only thing you have to offer.",
+      "author": "Barbara Kingsolver"
+    },
+    {
+      "quote": "It's only those who do nothing who make no mistakes.",
+      "author": "Joseph Conrad"
+    },
+    {
+      "quote": "We know what we are, but know not what we may be.",
+      "author": "William Shakespeare"
+    },
+    {
+      "quote": "The important work of moving the world forward does not wait to be done by perfect men.",
+      "author": "George Elliot"
+    },
+    {
+      "quote": "Hold fast to dreams for if dreams die life is a broken-winged bird that cannot fly.",
+      "author": "Langston Hughes"
+    },
+    {
+      "quote": "Imagination is more important than knowledge.",
+      "author": "Albert Einstein"
+    },
+    {
+      "quote": "Life isn't about finding yourself. Life is about creating yourself.",
+      "author": "George Bernard Shaw"
+    },
+    {
+      "quote": "Fortune favours the bold",
+      "author": "Terence"
+    },
+    {
+      "quote": "He has not learned the lesson of life who does not every day surmount a fear.",
+      "author": "Ralph Waldo Emerson"
+    },
+    {
+      "quote": "The life you have led doesn't need to be the only life you have.",
+      "author": "Anna Qunidlen"
+    },
+    {
+      "quote": "A ship is safe in the harbour, but that is not what ships are for.",
+      "author": "William Greenough Thayer"
+    },
+    {
+      "quote": "Change is not merely necessary to life - it is life.",
+      "author": "Alvin Toffler"
+    },
+    {
+      "quote": "We must be willing to let go of the life we have planned, so as to have the life that is waiting for us.",
+      "author": "E.M. Forster"
+    },
+    {
+      "quote": "The misfortunes hardest to bear are those which never happen.",
+      "author": "James Russell Lowell"
+    },
+    {
+      "quote": "I see my paths, but I don't know where it leads. Not knowing where I'm going is what inspires me to travel it.",
+      "author": "Rosalia de Castro"
+    },
+    {
+      "quote": "Confusion is the beginning of wisdom",
+      "author": "Socrates"
+    },
+    {
+      "quote": "We must sail sometimes with the wind and sometimes against it - but we must sail, and not drift, nor lie at anchor.",
+      "author": "Oliver Wendell Holmes Jr."
+    },
+    {
+      "quote": "Nought may endure but mutability.",
+      "author": "Percy Bysshe Shelley"
+    },
+    {
+      "quote": "If you do not expect the unexpected you wil not find it, for it is not to be reached by search or trail.",
+      "author": "Heraclitus"
+    },
+    {
+      "quote": "I'm not afraid of storms, for I'm learning to sail my ship.",
+      "author": "Louisa May Alcott"
+    },
+    {
+      "quote": "Life is not measured by the number of breaths we take, but by the moments that take our breath away.",
+      "author": "Maya Angelou"
+    },
+    {
+      "quote": "The more things you do, the more you can do.",
+      "author": "Lucille Ball"
+    },
+    {
+      "quote": "There is nothing like a dream to create the future.",
+      "author": "Victor Hugo"
+    },
+    {
+      "quote": "The question isn't who's going to let me; it's who's going to stop me?",
+      "author": "Ayn Rand"
+    },
+    {
+      "quote": "The greatest gift is not being afraid to question.",
+      "author": "Ruby Dee"
+    },
+    {
+      "quote": "Nothing will ever be attempted if all possible objections must first be overcome.",
+      "author": "Samuel Johnson"
+    },
+    {
+      "quote": "You have no security unless you can live bravely, excitingly, imaginatively; unless you can choose a challenge instead of competence.",
+      "author": "Eleanor Roosevelt"
+    },
+    {
+      "quote": "Take chances, make mistakes. That's how you grow. Pain nourishes your courage. You have to fail in order to practice being brave.",
+      "author": "Mary Tyler Moore"
+    },
+    {
+      "quote": "Courage is like a muscle. We strengthen it by use.",
+      "author": "Ruth Gordon"
+    },
+    {
+      "quote": "As for the future, your task is not to foresee it but to enable it.",
+      "author": "Antoine de Saint-Exupery"
+    },
+    {
+      "quote": "You may be disappointed if you fail, but you are doomed if you don't try.",
+      "author": "Beverly Sills"
+    },
+    {
+      "quote": "Nothing in life is to be feared. It is only to be understood.",
+      "author": "Marie Curie"
+    },
+    {
+      "quote": "Destiny is a name often given in retrospect to choices that had dramatic consequences.",
+      "author": "J.K. Rowling"
+    },
+    {
+      "quote": "The universe is change; our life is what our thoughts make it.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "quote": "Life begins at the end of your comfort zone.",
+      "author": "Neale Donald Walsch"
+    },
+    {
+      "quote": "Opportunity dances with those who are already on the dance floor.",
+      "author": "H. Jackson Brown Jr."
+    },
+    {
+      "quote": "Life shrinks or expands in proportion to one's courage.",
+      "author": "Anais Nin"
+    },
+    {
+      "quote": "We must believe that we are gifted for something, and that this thing, at whatever cost, must be attained.",
+      "author": "Marie Curie"
+    },
+    {
+      "quote": "Either life entails courage, or it ceases to be life.",
+      "author": "E.M. Forster"
+    },
+    {
+      "quote": "Never be afraid to fall apart, because it is an opportunity to rebuild yourself the way you wish you had been all along.",
+      "author": "Rae Smith"
+    },
+    {
+      "quote": "Optimism is true moral courage.",
+      "author": "Ernest Shackleton"
+    },
+    {
+      "quote": "Understand that the right to choose your path is a sacred privilege. Use it. Dwell in possibility.",
+      "author": "Oprah Winfrey"
+    },
+    {
+      "quote": "The world is a book, and those who do not travel read only a page.",
+      "author": "Saint Augustine"
+    },
+    {
+      "quote": "Go and make interesting mistakes, make amazing mistakes, make glorious and fantastic mistakes. Break rules. Leave the world more interesting for your being here.",
+      "author": "Neil Gaiman"
+    },
+    {
+      "quote": "Change is the law of life. And those who look only to the past or present are certain to miss the future.",
+      "author": "John F. Kennedy"
+    },
+    {
+      "quote": "A goal without a plan is just a wish.",
+      "author": "Antoine de Saint-Exupery"
+    },
+    {
+      "quote": "No matter who you are, no matter what you did, no matter where you've come from, you can always change, become a better version of yourself.",
+      "author": "Madonna"
+    },
+    {
+      "quote": "Don't underestimate the value of Doing Nothing, of just going along, listening to all the things you can't hear, and not bothering.",
+      "author": "A.A. Milne"
+    },
+    {
+      "quote": "A quiet mind cureth all.",
+      "author": "Robert Burton"
+    },
+    {
+      "quote": "Research is what I'm doing when I don't know what I'm doing.",
+      "author": "Wernher von Braun"
+    },
+    {
+      "quote": "I like work: it fascinates me. I can sit and look at it for hours.",
+      "author": "Jerome K. Jerome"
+    },
+    {
+      "quote": "The world is full of magical things patiently waiting for our wits to grow sharper.",
+      "author": "Bertrand Russell"
+    },
+    {
+      "quote": "My mind's my kingdom.",
+      "author": "Francis Quarles"
+    },
+    {
+      "quote": "As I get older I notice the years less and the seasons more.",
+      "author": "John Hubbard"
+    },
+    {
+      "quote": "The soul's joy lies in doing.",
+      "author": "Percy Bysshe Shelley"
+    },
+    {
+      "quote": "We usually find that it is the simplest things - not the great occasions - that in retrospect give off the greatest glow of happiness.",
+      "author": "Bob Hope"
+    },
+    {
+      "quote": "Wisdom begins in wonder.",
+      "author": "Socrates"
+    },
+    {
+      "quote": "The time you enjoy wasting is not wasted time.",
+      "author": "John Lennon"
+    },
+    {
+      "quote": "I long to accomplish a great and noble taks; but my chief duty is to accomplish small tasks as if they were great and noble.",
+      "author": "Helen Keller"
+    }
+  ],
+  "christmas_quotes": [
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    }
+  ],
+  "celebration_quotes": [
+    {
+      "quote": "The more you praise and celebrate your life, the more there is in life to celebrate.",
+      "author": "Oprah Winfrey"
+    },
+    {
+      "quote": "Life is too short not to celebrate nice moments",
+      "author": "Jurgen Klopp"
+    },
+    {
+      "quote": "I celebrate myself, and sing myself.",
+      "author": "Walt Whitman"
+    },
+    {
+      "quote": "Celebrate yourself . . . and stay positive!",
+      "author": "Khoudia Diop"
+    },
+    {
+      "quote": "Celebrate life in all its glory - challenge yourself to let the routine sing, and the new dance.",
+      "author": "Maximillian Degenerez"
+    },
+    {
+      "quote": "The best way to celebrate the holidays is with some delicious food.",
+      "author": "Rachel Hollis"
+    },
+    {
+      "quote": "Life has sweetness to it and a beauty and a power that I wanted to celebrate.",
+      "author": "Valerie Harper"
+    },
+    {
+      "quote": "There is never going to be an end point. But definitely, I am happy to complete a certain part of my journey, and that's something I want to celebrate.",
+      "author": "Harshvardhan Rane"
+    },
+    {
+      "quote": "Age is a case of mind over matter. If you don't mind, it doesn't matter.",
+      "author": "Mark Twain"
+    },
+    {
+      "quote": "The great thing about getting older is you don't lose all the other ages you've been.",
+      "author": "Madeleine L'Engle"
+    },
+    {
+      "quote": "Let us never know what old age is. Let us know the happiness time brings, not count the years.",
+      "author": "Decimus Magnus Ausonius"
+    },
+    {
+      "quote": "With mirth and laughter let old wrinkles come.",
+      "author": "William Shakespeare"
+    },
+    {
+      "quote": "Whatever with the past has gone, the best is always yet to come.",
+      "author": "Lucy Larcom"
+    },
+    {
+      "quote": "Every age can be enchanting, provided you live within it.",
+      "author": "Brigitte Bardot"
+    },
+    {
+      "quote": "How old would you be if you didn't know how old you are?",
+      "author": "Satchel Paige"
+    },
+    {
+      "quote": "You grow up the day you have the first real laugh at yourself.",
+      "author": "Ethel Barrymore"
+    },
+    {
+      "quote": "You know you are getting old when the candles cost more than the cake.",
+      "author": "Bob Hope"
+    },
+    {
+      "quote": "We grow neither better nor worse as we get old, but more like ourselves.",
+      "author": "Bernard Baruch"
+    },
+    {
+      "quote": "Birthdays are good for you. Statistics show that the people who have the most live the longest.",
+      "author": "Larry Lorenzoni"
+    },
+    {
+      "quote": "My candle burns at both ends; it will not last the night. But, ah, my foes, and, oh, my friends; it gives a lovely light!",
+      "author": "Edna St. Vincent Millay"
+    },
+    {
+      "quote": "In childhood, we yearn to be grown ups. In old age, we yearn to be kids. It just seems that all would be wonderful if we didn't have to celebrate our birthdays in chronological order.",
+      "author": "Robert Brault"
+    },
+    {
+      "quote": "Growing old is mandatory; growing up is optional.",
+      "author": "Chili Davis"
+    },
+    {
+      "quote": "Count your life by smiles, not tears, count your age by friends, not years.",
+      "author": "John Lennon"
+    },
+    {
+      "quote": "Years may wrinkle the skin, but to give up enthusiasm wrinkles the soul.",
+      "author": "Samuel Ullman"
+    },
+    {
+      "quote": "It is not the length of life, but the depth.",
+      "author": "Ralph Waldo Emerson"
+    },
+    {
+      "quote": "And in the end, it's not the years in your life that count. It's the life in your years.",
+      "author": "Abraham Lincoln"
+    },
+    {
+      "quote": "Birthdays are nature's way of telling us to eat more cake.",
+      "author": "Edward Morykwas"
+    },
+    {
+      "quote": "Each ten years of a man's life has its own fortunes, its own hopes, its own desires.",
+      "author": "Goethe"
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    },
+    {
+      "quote": "",
+      "author": ""
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+* {
+    font-family: 'Lobster', cursive;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/project/images/graduation_simple.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 0 0 0;
+    overflow: hidden;
+}
+h1 #countdown, h1 #quote {
+    font-weight: normal;
+    font-size: 60px;
+    margin: -150px 0 40px;
+}
+h1 #quote {
+    font-weight: normal;
+    font-size: 60px;
+}
+.countdown {
+    display: flex;
+    transform: scale(2);
+}
+.time, .quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+.time h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1;
+    margin: 0 0 5px;
+}
+.quote h2 #quoteAPI {
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 1;
+    margin: 0 0 5px;
+}
+#quoteAPI {
+    font-weight: normal;
+}
+
+@media(max-width:500px){
+    h1{
+        font-size: 45px;
+    }
+    .time {
+        margin: 5px;
+    }
+    .time h2, .quote h2 {
+        font-size: 12px;
+    }
+    .time small, .quote small {
+        font-size: 10px;
+    }
+}
